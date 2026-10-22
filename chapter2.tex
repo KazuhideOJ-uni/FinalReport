@@ -1,0 +1,46 @@
+\chapter{Findings}\label{ch:results}
+
+\section{Results and Discussion}
+Snapshots of electrocardiograms are as below:
+\begin{figure}[H]
+      \begin{centering}
+            \includegraphics[width=12cm]{a01plot}
+            \includegraphics[width=12cm]{a02plot}
+            \caption{Snapshots of electrocardiograms for records \textit{a01} and \textit{a02}, respectively. The dotted blue lines are the QRS annotations provided by the database.}
+            \label{ECGs}
+      \end{centering}
+\end{figure}
+
+As is evident in the ECG for \textit{a02} in \ref{ECGs}, not all of the QRS complexes were annotated correctly by the provided annotation file. The difficulty may have arisen from the p-waves almost becoming as tall as the R-peak. 
+Since this study's implementation relies on the QRS complexes being annotated accurately, there will be regions where the respiratory rate will appear slower than is actually the case.
+\par
+A snapshot of the obtain EDR is shown in figure \ref{EDRProcess}. As can be seen in (d), the frequency of the EDR appears to be higher than the measured respiratory efforts. 
+
+\begin{figure}[H]
+      \begin{centering}
+            \includegraphics[width=15cm]{EDR_Process}
+            \caption{A visual guide to estimating the EDR signal, using record \textit{a02} as an example. (a) Original ECG readings. (b) Calculating the 4th order central moments with L=2. (c) Performing a cubic interpolation on the peaks. (d) comparison between the EDG and measured respiratory efforts after post-processing.}
+            \label{EDRProcess}
+      \end{centering}
+\end{figure}
+\nl
+The spectrograms for EDRs and chest measurements can be seen in figure \ref{EDRCompare}. For record a01, both spectrograms have 'bright spots' for frequencies between 15-25 beats/min, suggesting that the EDR was able to capture the overall respiratory rate well. On the other hand, for a02, the pattern on the spectrogram is more uniform. Furthermore, In the region $t\in\left[129,176\right]$, most of the frequencies between 4-30 are absent, whereas in the chest measurements, there is a bright band at around 20 beats/min. Nonetheless, there seems to be evidence to suggest that when a person exits a state of apnoea and return to normal breathing, we sometimes observe decreases in intensities of many of the frequencies in the 4-30 breaths/min range.
+\begin{figure}[H]
+      \begin{centering}
+            \includegraphics[width=15cm]{Spectrogram_Compare}
+            \caption{Spectrograms for EDR and chest measurements for a01 and a02, respectively. The green line indicate onset of apnoea and light blue lines indicate a return to normal breathing.}
+            \label{EDRCompare}
+      \end{centering}
+\end{figure}
+\nl
+When a line is traced through the brightest spot in the spectrogram, one obtains an estimate of the average respiratory heart rate with a window of 30 seconds, as shown in figure \ref{AvgRR}.
+\begin{figure}[H]
+      \begin{centering}
+            \includegraphics[width=15cm]{AvgRR}
+            \caption{(a,c) Average respiratory rate, extracted from the respiratory efforts from the Chest and EDR, over a 3 minute window. (b,d) Difference between respiratory rate of chest minus EDR with the 95\% confidence interval. \textit{a01}: $\mu=-0.836890,\sigma=4.894213$. \textit{a02}: $\mu=-0.116147,\sigma=5.428670$}
+            \label{AvgRR}
+      \end{centering}
+\end{figure}
+
+
+\section{Further directions}

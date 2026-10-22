@@ -1,0 +1,316 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{associationUnderstandingVitalSigns}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1768b05aec461e46fcdbff1c24d5c2eb}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={American\bibnamedelima Lung},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{fullhash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{fullhashraw}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{bibnamehash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{authorbibnamehash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{authornamehash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{authorfullhash}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \strng{authorfullhashraw}{1768b05aec461e46fcdbff1c24d5c2eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Every time you go to the doctor, the first thing they do is check your vital signs. These four initial tests measure the basic functions of your body and are (mostly) regulated by your autonomic nervous system.}
+      \field{howpublished}{https://www.lung.org/blog/respiratory-rate-vital-signs}
+      \field{langid}{english}
+      \field{shorttitle}{Understanding {{Vital Signs}}}
+      \field{title}{Understanding {{Vital Signs}}: {{The Importance}} of {{Your Respiratory Rate}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\kazuh\Zotero\storage\VBGWRHLR\respiratory-rate-vital-signs.html
+      \endverb
+    \endentry
+    \entry{fanHighAccuracyUltraLow2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=d330f0c7819580ad1269e2decb0c8fbb}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Jiajing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=709a4fac30eda379d2cd5571ef88910f}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Siqi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b013eb94b3435dc281980e6158c859f7}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiahao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=548bd5533808db7db16fbf5ffb75426b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9647aadbafd03f0f56fb6831dfa9cbd2}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Jianbiao},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a24d678d4580fe962ce13a9f94ee277}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a54a68fcc8e4a1777334c6a4453fb97a}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Shuisheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=21b6969d672728cb4ea4381d1d8706b5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ede284038f40aeee773890186bdddfd}
+      \strng{fullhash}{4a573c77a07510eeb55c9bc59c92d1a3}
+      \strng{fullhashraw}{4a573c77a07510eeb55c9bc59c92d1a3}
+      \strng{bibnamehash}{5ede284038f40aeee773890186bdddfd}
+      \strng{authorbibnamehash}{5ede284038f40aeee773890186bdddfd}
+      \strng{authornamehash}{5ede284038f40aeee773890186bdddfd}
+      \strng{authorfullhash}{4a573c77a07510eeb55c9bc59c92d1a3}
+      \strng{authorfullhashraw}{4a573c77a07510eeb55c9bc59c92d1a3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The respiratory rate is widely used for evaluating a person's health condition. Compared to other invasive and expensive methods, the ECG-derived respiration estimation is a more comfortable and affordable method to obtain the respiration rate. However, the existing ECG-derived respiration estimation methods suffer from low accuracy or high computational complexity. In this work, a high accuracy and ultra-low power ECG-derived respiration estimation processor has been proposed. Several techniques have been proposed to improve the accuracy and reduce the computational complexity (and thus power consumption), including QRS detection using refractory period refreshing and adaptive threshold EDR estimation. Implemented and fabricated using a 55 nm processing technology, the proposed processor achieves a low EDR estimation error of 0.73 on CEBS database and 1.2 on MIT-BIH Polysomnographic Database while demonstrating a record-low power consumption (354 nW) for the respiration monitoring, outperforming the existing designs. The proposed processor can be integrated in a wearable sensor for ultra-low power and high accuracy respiration monitoring.}
+      \field{issn}{2079-6374}
+      \field{journaltitle}{Biosensors}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{A {{High Accuracy}} \& {{Ultra-Low Power ECG-Derived Respiration Estimation Processor}} for {{Wearable Respiration Monitoring Sensor}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{665}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bios12080665
+      \endverb
+      \verb{file}
+      \verb C:\Users\kazuh\Zotero\storage\AV7BIQ8I\Fan et al. - 2022 - A High Accuracy & Ultra-Low Power ECG-Derived Respiration Estimation Processor for Wearable Respirat.pdf
+      \endverb
+    \endentry
+    \entry{jordanAdultObstructiveSleep2014a}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=027a1a03609812b8de3ca6e2c95baec4}{%
+           family={Jordan},
+           familyi={J\bibinitperiod},
+           given={Amy\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=466c37686dbe45edde218571a10837bc}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=5bd1e6ab69540cd562dd9b6113dfdd95}{%
+           family={Malhotra},
+           familyi={M\bibinitperiod},
+           given={Atul},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{480947c53f66432fc4cdf06406d28251}
+      \strng{fullhash}{480947c53f66432fc4cdf06406d28251}
+      \strng{fullhashraw}{480947c53f66432fc4cdf06406d28251}
+      \strng{bibnamehash}{480947c53f66432fc4cdf06406d28251}
+      \strng{authorbibnamehash}{480947c53f66432fc4cdf06406d28251}
+      \strng{authornamehash}{480947c53f66432fc4cdf06406d28251}
+      \strng{authorfullhash}{480947c53f66432fc4cdf06406d28251}
+      \strng{authorfullhashraw}{480947c53f66432fc4cdf06406d28251}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0140-6736, 1474-547X}
+      \field{journaltitle}{The Lancet}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{9918}
+      \field{title}{Adult Obstructive Sleep Apnoea}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{383}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{736\bibrangedash 747}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(13)60734-5
+      \endverb
+      \verb{file}
+      \verb C:\Users\kazuh\Zotero\storage\429FK7MM\Jordan et al. - 2014 - Adult obstructive sleep apnoea.pdf
+      \endverb
+    \endentry
+    \entry{akaiReducingRespiratoryArtifacts2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0d6cfea8746cfc6d9037d9f75ad99ed3}{%
+           family={Akai},
+           familyi={A\bibinitperiod},
+           given={Ryota},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c77d368e4709a69f5aae610e4d3937ef}{%
+           family={Yoshino},
+           familyi={Y\bibinitperiod},
+           given={Ayaka},
+           giveni={A\bibinitperiod}}}%
+        {{hash=02c4fc64ec6f5b445f85391108a4bd02}{%
+           family={Ohara},
+           familyi={O\bibinitperiod},
+           given={Kumiko},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b953ba9d60d453fc099d0c62be4e5cd7}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Harunobu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1bf9ed4b2581210751056989c12db908}{%
+           family={Okita},
+           familyi={O\bibinitperiod},
+           given={Yoshimitsu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{7af216529ce1b61e622add31085ba907}
+      \strng{fullhash}{f09ca18d81f3340ae13b1725f468a975}
+      \strng{fullhashraw}{f09ca18d81f3340ae13b1725f468a975}
+      \strng{bibnamehash}{7af216529ce1b61e622add31085ba907}
+      \strng{authorbibnamehash}{7af216529ce1b61e622add31085ba907}
+      \strng{authornamehash}{7af216529ce1b61e622add31085ba907}
+      \strng{authorfullhash}{f09ca18d81f3340ae13b1725f468a975}
+      \strng{authorfullhashraw}{f09ca18d81f3340ae13b1725f468a975}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Heart rate variability (HRV) has been analyzed to assess the effects of food on autonomic nervous activity, but HRV is reportedly influenced by respiration. Reducing respiratory artifacts in HRV analysis requires respiratory signals. In this study, we estimated respiratory signals from electrocardiogram (ECG), compared these signals with actual respiratory signals, and investigated HRV indices before and after reducing respiratory artifacts based on estimated or actual respiratory signals during functional food intake. ECG and actual respiratory signals were recorded from five healthy males during gamma-aminobutyric acid (GABA) or placebo intake. Estimated respiratory signals were obtained using eight types of ECG-derived respiration (EDR) methods. The highest similarity to the actual signal was observed in the signals estimated from the EDR method based on the fourth-order central moment. Comparing the LF/HF ratios (one of the HRV indices), the difference between GABA and placebo decreased at 60 min post-intake after reducing respiratory artifacts than before reducing them; a decrease of 39.5\% using the estimated signals and a decrease of 48.7\% using actual signals. Our findings indicate that the EDR method provides the possibility of analyzing HRV with reduction of respiratory artifacts using only ECG, similar to using the actual respiratory signals, in functional food studies. ©{} 2025 The Author(s). IEEJ Transactions on Electrical and Electronic Engineering published by Institute of Electrical Engineers of Japan and Wiley Periodicals LLC.}
+      \field{issn}{1931-4981}
+      \field{journaltitle}{IEEJ Transactions on Electrical and Electronic Engineering}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{title}{Reducing {{Respiratory Artifacts}} in {{Heart Rate Variability}} during {{Functional Food Intake Using ECG-Derived Respiration}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{21}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{413\bibrangedash 420}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/tee.70102
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\kazuh\\Zotero\\storage\\7FRPBCLD\\Akai et al. - 2026 - Reducing Respiratory Artifacts in Heart Rate Variability during Functional Food Intake Using ECG-Der.pdf;C\:\\Users\\kazuh\\Zotero\\storage\\WHZUY5A3\\tee.html
+      \endverb
+      \keyw{autonomic nervous activity,ECG-derived respiration,electrocardiogram,functional foods,heart rate variability,respiration}
+    \endentry
+    \entry{schmidtEstimationRespiratorySignal2015}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=547f6526e720499bfd9b95190fd84b94}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c285330bb03f001a9ef612cde9c97fad}{%
+           family={Krug},
+           familyi={K\bibinitperiod},
+           given={Johannes\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=59fa61927a9e2c349e4f9c68e6215e11}{%
+           family={Schumann},
+           familyi={S\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f9a00e4f0a1102537b3031085da6fdd2}{%
+           family={Bär},
+           familyi={B\bibinitperiod},
+           given={Karl-Jürgen},
+           giveni={K\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=09a022465f876f03bcabe4bb62dd980c}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Gruyter}%
+      }
+      \strng{namehash}{d70418d167f24703925916705b7d32e2}
+      \strng{fullhash}{2c3a25ea9a59ad878f71ed3e8c0e1ec1}
+      \strng{fullhashraw}{2c3a25ea9a59ad878f71ed3e8c0e1ec1}
+      \strng{bibnamehash}{d70418d167f24703925916705b7d32e2}
+      \strng{authorbibnamehash}{d70418d167f24703925916705b7d32e2}
+      \strng{authornamehash}{d70418d167f24703925916705b7d32e2}
+      \strng{authorfullhash}{2c3a25ea9a59ad878f71ed3e8c0e1ec1}
+      \strng{authorfullhashraw}{2c3a25ea9a59ad878f71ed3e8c0e1ec1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For a variety of clinical applications like magnetic resonance imaging (MRI) the monitoring of vital signs is a common standard in clinical daily routine. Besides the electrocardiogram (ECG), the respiratory activity is an important vital parameter and might reveal pathological changes. Thoracic movement and the resulting impedance change between ECG electrodes enable the estimation of the respiratory signal from the ECG. This ECG-derived respiration (EDR) can be used to calculate the breathing rate without the need for additional devices or monitoring modules. In this paper a new method is presented to estimate the respiratory signal from a single-lead ECG. The 4th order central moments was used to estimate the EDR signal exploiting the change of the R-wave slopes induced by respiration. This method was compared with two approaches by analyzing the Fantasia database from www.physionet.org. Furthermore, the ECG signals of 24 healthy subjects placed in an 3 T MR-scanner were acquired.}
+      \field{issn}{2364-5504}
+      \field{journaltitle}{Current Directions in Biomedical Engineering}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{Estimation of a Respiratory Signal from a Single-Lead {{ECG}} Using the 4th Order Central Moments}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 64}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1515/cdbme-2015-0016
+      \endverb
+      \verb{file}
+      \verb C:\Users\kazuh\Zotero\storage\34QTEHIB\Schmidt et al. - 2015 - Estimation of a respiratory signal from a single-lead ECG using the 4th order central moments.pdf
+      \endverb
+      \keyw{central moment,ECG,EDR,monitoring,MRI,respiration}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
